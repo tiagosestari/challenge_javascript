@@ -30,7 +30,7 @@ Com isso em mente, imagine que vc é um "single dev army" e tem a responsabilida
 
 ### Observações
 
-1. Caso tenha alguma dúvida durante o challenge, fique à vontade pra entrar em contato conosco. (Você pode nos encontrar no slack do react-brasil @padil, @luciano kregs e @egito ou através dos nossos e-mails mencionados acima)
+1. Caso tenha alguma dúvida durante o challenge, fique à vontade pra entrar em contato conosco. (Você pode nos encontrar no slack do react-brasil @padil, @lucianokrebs ou através dos nossos e-mails mencionados acima)
 2. Faça com calma e qualidade e use um tempo razoável.
 
 #### Explicação dos dados no ENDPOINT do empréstimo:
