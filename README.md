@@ -1,44 +1,44 @@
-## Contexto:
+## Context:
 
-A provi é uma fintech que oferece crédito para pessoa física sem garantia, com o intuito de fomentar a educação especializada no Brasil. Financiamos cursos e especializações (presenciais ou online) para designers, programadores, data scientists, digital marketers, etc.
+Provi is a fintech that offers credit to individuals without guarantee, in order to promote specialized education in Brazil. We finance courses and specializations (in-person or online) for designers, programmers, data scientists, digital marketers, etc.
 
-### desafio provi - javascript developer
+### provi challenge - javascript developer
 
-Imagine que você recebeu a missão de construir um dashboard onde os usuários que receberam empréstimos podem ver suas parcelas em aberto, valor total da dívida, total de juros, etc...
+Imagine that you were tasked with building a dashboard where users who received loans can see their installments outstanding, total debt amount, total interest, etc ...
 
-Olhando esse desafio pela ótica do cliente, quais funcionalidades você imagina que sejam ideais para um dashboard de gestão e acompanhamento do empréstimo?
+Looking at this challenge from the customer's perspective, what features do you think are ideal for a loan management and monitoring dashboard?
 
-Com isso em mente, imagine que vc é um "single dev army" e tem a responsabilidade de desenvolver um MVP desse dashboard e apresentar para o resto do time.
+With that in mind, imagine that you are a "single dev army" and have the responsibility to develop an MVP from that dashboard and present it to the rest of the team.
 
-### siga os passos abaixo para fazer o desafio:
+### follow the steps below to take the challenge:
 
-1. Crie um repositório no github.
-2. Use o CRA(create-react-app) para gerar a estrutura inicial do projeto.
-3. Sinta-se a vontade para fazer chamadas http como preferir.
-4. Sinta-se a vontade para usar algum framework de UI/UX ou fazer o próprio design.
-5. Ao terminar, faça um pull request do seu challenge e um fork em seguida.
-6. Caso você sinta necessidade de "chumbar" algum texto na tela que não esteja na API (nome do usuário, foto, email, mensagens, etc), não tem problema.
-7. Caso não consiga fazer o fork/pull request, encaminhar o repo zipado para luciano@provi.com.br ou padilha@provi.com.br
+1. Create a repository on github.
+2. Use the CRA (create-react-app) to generate the initial structure of the project.
+3. Feel free to make http calls as you prefer.
+4. Feel free to use some UI / UX framework or make your own design.
+5. When finished, pull request your challenge and then fork.
+6. If you feel the need to "fail" some text on the screen that is not in the API (user name, photo, email, messages, etc.), no problem.
+7. If you are unable to fork / pull request, forward the zipped repo to luciano@provi.com.br or padilha@provi.com.br
 
-### O que vamos levar em conta
+### What are we going to take into account
 
-1. Bons princípios de UI/UX
-2. Boa noção de design patterns.
-3. Usar Redux/Context para gerenciamento de estado.
-4. Usar Hooks.
-5. Organização do github (commits, pull requests).
+1. Good UI / UX principles
+2. Good notion of design patterns.
+3. Use Redux / Context for state management.
+4. Use Hooks.
+5. Organization of github (commits, pull requests).
 
-### Observações
+### Comments
 
-1. Caso tenha alguma dúvida durante o challenge, fique à vontade pra entrar em contato conosco. (Você pode nos encontrar no slack do react-brasil @padil, @lucianokrebs ou através dos nossos e-mails mencionados acima)
-2. Faça com calma e qualidade e use um tempo razoável.
+1. If you have any questions during the challenge, feel free to contact us. (You can find us on the react-brasil slack @padil, @lucianokrebs or through our emails mentioned above)
+2. Do it calmly and with quality and use a reasonable time.
 
-#### Explicação dos dados no ENDPOINT do empréstimo:
+#### Explanation of the data in the loan's ENDPOINT:
 
 ENDPOINT: http://www.mocky.io/v2/5c923b0932000029056bce39
 
-1.  totalAmountInTaxes: Valor total de juros no empréstimo
-2.  monthlyInterest: Taxa de juros mensal
-3.  amountPayd: Valor total pago
-4.  amountTaken: Valor total emprestado
-5.  installments: Todas as parcelas do empréstimo
+1. totalAmountInTaxes: Total amount of interest on the loan
+2. monthlyInterest: Monthly interest rate
+3. amountPayd: Total amount paid
+4. amountTaken: Total amount borrowed
+5. installments: All installments of the loan
