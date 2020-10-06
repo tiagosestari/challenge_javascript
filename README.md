@@ -18,7 +18,7 @@ With that in mind, imagine that you are a "single dev army" and have the respons
 4. Feel free to use some UI / UX framework or make your own design.
 5. When finished, pull request your challenge and then fork.
 6. If you feel the need to "fail" some text on the screen that is not in the API (user name, photo, email, messages, etc.), no problem.
-7. If you are unable to fork / pull request, forward the zipped repo to luciano@provi.com.br or padilha@provi.com.br
+7. If you are unable to fork / pull request, forward the zipped repo to luciano@provi.com.br or luiz.camargo@provi.com.br
 
 ### What are we going to take into account
 
@@ -30,7 +30,7 @@ With that in mind, imagine that you are a "single dev army" and have the respons
 
 ### Comments
 
-1. If you have any questions during the challenge, feel free to contact us. (You can find us on the react-brasil slack @padil, @lucianokrebs or through our emails mentioned above)
+1. If you have any questions during the challenge, feel free to contact us. (You can find us on the react-brasil slack @LFSCamargo, @lucianokrebs or through our emails mentioned above)
 2. Do it calmly and with quality and use a reasonable time.
 
 #### Explanation of the data in the loan's ENDPOINT:
