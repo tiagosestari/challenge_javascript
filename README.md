@@ -30,7 +30,7 @@ With that in mind, imagine that you are a "single dev army" and have the respons
 
 ### Comments
 
-1. If you have any questions during the challenge, feel free to contact us. (You can find us on the react-brasil slack @padil, @lucianokrebs or through our emails mentioned above)
+1. If you have any questions during the challenge, feel free to contact us. (You can find us on the react-brasil slack @LFSCamargo, @lucianokrebs or through our emails mentioned above)
 2. Do it calmly and with quality and use a reasonable time.
 
 #### Explanation of the data in the loan's ENDPOINT:
