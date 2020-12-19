@@ -1,0 +1,17 @@
+.containerResumoPrincipal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5em;
+    
+}
+
+.resumoItem {
+    
+    padding: 0.5em;
+    color: white;
+    margin: 0.1em 0;
+    background-color: rgb(19, 109, 207);
+    border-radius: 5px;
+    width: 100%;
+}

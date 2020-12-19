@@ -1,0 +1,56 @@
+.containerListaDeParcelas {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.listHeader {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    margin: 0.5em 0;
+    border-bottom: 5px solid rgb(222, 11, 74);
+    border-radius: 5px;
+
+}
+
+.listHeader > div {
+    justify-self: left;
+    align-self: center;
+    padding: 0.8em;
+    font-weight: bold;
+}
+
+.listContainer{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.listItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+    margin: 0.1em 0;
+    background-color: rgb(19, 109, 207);
+    border-radius: 5px;
+}
+
+.listItem > div {
+    justify-self: center;
+    align-self: center;
+    padding: 0.8em;
+    
+    
+}
+
+.listItem > div > button {
+    background-color: rgb(222, 11, 74);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
