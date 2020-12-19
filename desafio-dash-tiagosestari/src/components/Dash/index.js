@@ -3,8 +3,9 @@ import {useState} from 'react';
 import axios from 'axios';
 
 //Importando outros componentes
-import AmountTaken from '../ResumoPrincipal';
 import ResumoPrincipal from '../ResumoPrincipal';
+import ListaParcelas from '../ListaParcelas';
+
 
 const Dash = () => {
     const baseurl = 'http://www.mocky.io/v2/5c923b0932000029056bce39'
@@ -28,6 +29,7 @@ const Dash = () => {
    <div>
 
     <ResumoPrincipal amountTaken={findata.amountTaken} amountPaid={findata.amountPayd} />
+    {findata.installments ? <ListaParcelas installments={findata.installments} /> : <div></div>}
 
     
    
