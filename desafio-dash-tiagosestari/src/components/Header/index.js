@@ -1,5 +1,6 @@
 import React from 'react';
-
+import logo from '../../imgs/provi_logo.png';
+import './Header.css';
 
 const Header = () => {
 
@@ -7,7 +8,8 @@ const Header = () => {
 
   return (
    <header>
-       This is a header
+       <img src={logo} alt="Logo da Provi" />
+       <div>Dashboard de Acompnhamento Financeiro</div>
    </header>
   );
 }

@@ -1,17 +1,18 @@
 import React from 'react';
-
+import './ResumoPrincipal.css';
 
 const ResumoPrincipal = (props) => {
 
+    //Os dados financeiros serão recebidos como props
     const {amountTaken, amountPaid} = props;
 
   return (
-   <div>
+   <div className="containerResumoPrincipal">
 
-     <p>O valor total emprestado é: R$ {amountTaken ? amountTaken : 0} </p>
-     <p>O valor total já pago é: R$ {amountPaid ? amountPaid : 0} </p>
-     <p>Valor restante: R$ {amountTaken ? amountTaken - amountPaid : "indisponível"}</p>
-     
+     <div className="resumoItem">O valor total emprestado é: R$ {amountTaken ? amountTaken : 0} </div>
+     <div className="resumoItem">O valor total já pago é: R$ {amountPaid ? amountPaid : 0} </div>
+     <div className="resumoItem">Valor restante: R$ {amountTaken ? amountTaken - amountPaid : "indisponível"}</div>
+
    </div>
   );
 }
