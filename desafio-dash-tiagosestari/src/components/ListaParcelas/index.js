@@ -30,15 +30,20 @@ const ListaParcelas = (props) => {
         return (
             <div className="listItem">
               <div>{installment.formatedValue}              </div>
-              <div>{installment.payd ? "Paga" : "Pendente"} </div>
+              <div>{installment.payd ? "Paga" : "Em aberto"} </div>
               <div>{installment.dueDate}                    </div>
               <div><button onClick={() => {alert("Redirecionar para pagamento(idparcela)")}}>Pagar</button></div>
            </div> 
         )
     });
+    
 
   return (
+
+
    <div className="containerListaDeParcelas">
+
+    <div className="tituloItemParcelas"><div>Detalhamento de parcelas</div></div>
     <div className="listHeader">
         <div>Valor </div>
         <div>Status </div> 
@@ -46,8 +51,10 @@ const ListaParcelas = (props) => {
         <div>Pagar </div>
     </div>
 
-    <div>
-      <select value={filtroPagas} onChange={(event) => {setFiltroPagas(event.target.value); console.log(filtroPagas)}}>
+    <div className="filtros">
+      
+      <label for="filtro-status">Filtrar por Status da Parcela </label>
+      <select id="filtro-status" name="filtro-status" value={filtroPagas} onChange={(event) => {setFiltroPagas(event.target.value); console.log(filtroPagas)}}>
         <option>Pagas</option>
         <option>Em aberto</option>
         <option>Todas</option>
