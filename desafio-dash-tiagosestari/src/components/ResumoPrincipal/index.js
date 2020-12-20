@@ -8,7 +8,7 @@ const ResumoPrincipal = (props) => {
 
   return (
    <div className="containerResumoPrincipal">
-
+     <div className="tituloItem">Resumo principal do empréstimo</div>
      <div className="resumoItem">O valor total emprestado é: R$ {amountTaken ? amountTaken : 0} </div>
      <div className="resumoItem">O valor total já pago é: R$ {amountPaid ? amountPaid : 0} </div>
      <div className="resumoItem">Valor restante: R$ {amountTaken ? amountTaken - amountPaid : "indisponível"}</div>

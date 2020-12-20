@@ -14,6 +14,9 @@ const Dash = () => {
     //Salvando os dados financeiros no estado findata.
     const [findata, setFindata] = useState({});
 
+    //Estado para renderização condicional do detalhamento de parcelas
+    const [detalharParcelas, setDetalharParcelas] = useState(false);
+
     //Acessando o endpoint da API através do axios
     const getFindata = () => {
         axios.get(`${baseurl}`)
@@ -33,7 +36,10 @@ const Dash = () => {
    <div className="Dash">
 
     <ResumoPrincipal amountTaken={findata.amountTaken} amountPaid={findata.amountPayd} />
-    {findata.installments ? <ListaParcelas installments={findata.installments} /> : <div></div>}
+
+    <button className="show-hide-detalhes" onClick={() => {setDetalharParcelas(!detalharParcelas)}}> {detalharParcelas ? "Esconder" : "Ver"} detalhes de parcelas</button>
+    
+    {findata.installments && detalharParcelas ? <ListaParcelas installments={findata.installments} /> : <div></div>}
 
     
    

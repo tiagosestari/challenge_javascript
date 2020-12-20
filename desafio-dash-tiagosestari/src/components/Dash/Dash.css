@@ -1,3 +1,24 @@
 .Dash {
     width: 45%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.show-hide-detalhes {
+    background-color: rgb(222, 11, 74);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-top: 0.2em;
+    width: 40%;
+    align-self: center;
+
+}
+
+.show-hide-detalhes:hover {
+    opacity: 0.5;
 }
