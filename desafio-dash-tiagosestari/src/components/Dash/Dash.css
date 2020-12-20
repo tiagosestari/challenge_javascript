@@ -1,3 +1,5 @@
 .Dash {
     width: 45%;
+    flex-grow: 1;
+    margin-top: 10em;
 }
