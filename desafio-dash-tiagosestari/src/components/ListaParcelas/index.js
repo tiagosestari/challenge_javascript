@@ -32,7 +32,7 @@ const ListaParcelas = (props) => {
               <div>{installment.formatedValue}              </div>
               <div>{installment.payd ? "Paga" : "Em aberto"} </div>
               <div>{installment.dueDate}                    </div>
-              <div><button onClick={() => {alert("Redirecionar para pagamento(idparcela)")}}>Pagar</button></div>
+        <div> { installment.payd ? <button disabled={true} >Pago</button> : <button onClick={() => {alert("Redirecionar para pagamento(idparcela)")}}>Pagar</button> }</div>
            </div> 
         )
     });
